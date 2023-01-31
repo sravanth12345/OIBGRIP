@@ -1,0 +1,159 @@
+body{
+	background-color: #000;
+	background-image: url("elonmusk.jpeg");
+	background-repeat: no-repeat;
+        background-position: center center;
+	background-attachment:fixed;
+	font-family: 'Roboto', sans-serif;
+}
+h1{
+	text-align: center;
+	color: #fff;
+	padding-top: 3%;
+	font-size: 4rem;
+	line-height: 1.5;
+	font-family: 'Ubuntu', sans-serif;
+}
+h3{
+	color: #fff;
+}
+a{
+	margin: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.heading{
+	color: #fff;
+	text-align: center;
+	font-size: 2rem;
+	text-decoration: underline;
+}
+
+#quotes{
+	text-align: center;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;	
+	font-size: 1.6rem;
+}
+.carousel-inner{
+	height: 340px;
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+#business-career,#donation, #honors, #family{
+	margin: 50px;
+}
+.business-p{
+	color: #adae9d;
+}
+a:hover{
+	color: #000;
+}
+.modal-header,.modal-footer{
+	background-color: #000;
+	color: #fff; 
+}
+.modal-body{
+	background-color: #fff;
+	color: #000; 
+}
+.close{
+	color: #fff;
+}
+hr{
+	border: dotted #7a8b88 2px;
+	border-bottom: none;
+	width: 75%;
+	}
+
+.social-icon{
+	margin: 20px 15px;
+}
+.social-icon:hover, .ft-a:hover{
+	color: #adae9d;
+}
+
+.early-life{
+	background-image: url("early-life.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+}
+.acting{
+	background-image: url("acting.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+}
+.donation{
+	background-image: url("donation.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+}
+.honors{
+	background-image: url("honors.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment:fixed;
+}
+
+
+@media (max-width: 667px){
+	body{
+		background-image: url("carousel1.jpg");
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-attachment:fixed;
+	}
+	h1{
+		font-size: 2rem;
+	}
+	.heading{
+		font-size: 1rem;
+	}
+	a{
+	margin: 10px;
+	text-decoration: none;
+	color: #fff;
+	}
+	h2{
+		font-size: 80%;
+	}
+	em{
+		font-size: 60%;
+	}
+	.social-icon{
+	margin: 20px 2px;
+	}
+	#business-career, #donation, #honors, #family{
+		background-color: #5252526b;
+		padding: 3%;
+		border-radius: 8%;
+	}
+	.business-p{
+		color: #d4d9de;
+	}
+	.carousel-inner{
+	height: 250px;
+	margin-top: 5px;
+	}
+}
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+	.modal-body{
+	background-color: #fff;
+	color: #000; 
+	}
+	body{
+		background-image: url("carousel2.jpg");
+		background-repeat: no-repeat;
+/* 		background-position: center center; */
+		background-attachment:fixed;
+	}
+	
+}
